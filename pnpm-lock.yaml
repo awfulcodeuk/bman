@@ -16,10 +16,12 @@ specifiers:
   webpack-dev-server: ^4.6.0
   webpack-merge: ^5.8.0
   webpack-obfuscator: ^3.5.0
+  workbox-precaching: ^6.5.3
   workbox-webpack-plugin: ^6.4.2
 
 dependencies:
   phaser: 3.55.2
+  workbox-precaching: 6.5.3
 
 devDependencies:
   '@yandeu/prettier-config': 0.0.3_prettier@2.7.1
@@ -5244,7 +5246,6 @@ packages:
 
   /workbox-core/6.5.3:
     resolution: {integrity: sha512-Bb9ey5n/M9x+l3fBTlLpHt9ASTzgSGj6vxni7pY72ilB/Pb3XtN+cZ9yueboVhD5+9cNQrC9n/E1fSrqWsUz7Q==}
-    dev: true
 
   /workbox-expiration/6.5.3:
     resolution: {integrity: sha512-jzYopYR1zD04ZMdlbn/R2Ik6ixiXbi15c9iX5H8CTi6RPDz7uhvMLZPKEndZTpfgmUk8mdmT9Vx/AhbuCl5Sqw==}
@@ -5274,7 +5275,6 @@ packages:
       workbox-core: 6.5.3
       workbox-routing: 6.5.3
       workbox-strategies: 6.5.3
-    dev: true
 
   /workbox-range-requests/6.5.3:
     resolution: {integrity: sha512-pGCP80Bpn/0Q0MQsfETSfmtXsQcu3M2QCJwSFuJ6cDp8s2XmbUXkzbuQhCUzKR86ZH2Vex/VUjb2UaZBGamijA==}
@@ -5297,13 +5297,11 @@ packages:
     resolution: {integrity: sha512-DFjxcuRAJjjt4T34RbMm3MCn+xnd36UT/2RfPRfa8VWJGItGJIn7tG+GwVTdHmvE54i/QmVTJepyAGWtoLPTmg==}
     dependencies:
       workbox-core: 6.5.3
-    dev: true
 
   /workbox-strategies/6.5.3:
     resolution: {integrity: sha512-MgmGRrDVXs7rtSCcetZgkSZyMpRGw8HqL2aguszOc3nUmzGZsT238z/NN9ZouCxSzDu3PQ3ZSKmovAacaIhu1w==}
     dependencies:
       workbox-core: 6.5.3
-    dev: true
 
   /workbox-streams/6.5.3:
     resolution: {integrity: sha512-vN4Qi8o+b7zj1FDVNZ+PlmAcy1sBoV7SC956uhqYvZ9Sg1fViSbOpydULOssVJ4tOyKRifH/eoi6h99d+sJ33w==}

@@ -39,7 +39,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "phaser": "^3.55.2"
+    "phaser": "^3.55.2",
+    "workbox-precaching": "^6.5.3"
   },
   "devDependencies": {
     "@yandeu/prettier-config": "^0.0.3",
