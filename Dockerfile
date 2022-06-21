@@ -18,4 +18,4 @@ RUN npm run build
 RUN ls -al /app
 
 EXPOSE 1235
-CMD [ "node", "server/server.js" ]
+CMD [ "node", "server.js" ]
